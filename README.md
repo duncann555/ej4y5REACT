@@ -1,12 +1,28 @@
-# React + Vite
+# 📝 Lista de Tareas - React + React Bootstrap + React Hook Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una aplicación web simple que permite **agregar** y **eliminar** tareas de una lista.  
+El objetivo del ejercicio es practicar el uso de **React**, **React Bootstrap** y **React Hook Form**, así como el manejo de **localStorage** para persistir datos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+- **Agregar tareas**: Escribe el nombre de la tarea y presiona `Enter` o haz clic en **Agregar**.
+- **Validaciones de formulario**:
+  - Campo obligatorio.
+  - Longitud mínima de **2 caracteres**.
+  - Longitud máxima de **50 caracteres**.
+- **Mostrar lista de tareas**: Cada tarea agregada aparece automáticamente debajo del formulario.
+- **Eliminar tareas**: Podés borrar cualquier tarea haciendo clic en el botón correspondiente.
+- **Persistencia con localStorage**: Las tareas se guardan localmente y permanecen al recargar la página.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- ⚛ **React** → Librería principal.
+- 🎨 **React Bootstrap** → Componentes visuales estilizados.
+- ✅ **React Hook Form** → Manejo de formularios y validaciones.
+- 💾 **localStorage** → Persistencia de datos en el navegador.
+
+---
